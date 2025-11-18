@@ -44,7 +44,7 @@ def dfs_hidden_gem(capacity1, capacity2, target):
 
     return None
 
-capacity1, capacity2, target = 5, 3, 2
+capacity1, capacity2, target = 3, 6, 4
 print("\nDFS Solution Path for Hidden Gem Bistro:")
 dfs_path = dfs_hidden_gem(capacity1, capacity2, target)
 print("\n",dfs_path)
